@@ -2,8 +2,8 @@ import pandas as pd
 import requests
 import streamlit as st
 
-DEFAULT_API_BASE_URL = "http://127.0.0.1:8000"
-REQUEST_TIMEOUT_SECONDS = 5
+DEFAULT_API_BASE_URL = "https://house-price-prediction-2yae.onrender.com/"
+REQUEST_TIMEOUT_SECONDS = 60
 HOUSE_COLUMNS = ["area_sqft", "bedrooms", "bathrooms", "age_years"]
 INTEGER_COLUMNS = {"bedrooms", "bathrooms", "age_years"}
 SAMPLE_HOUSES = [
